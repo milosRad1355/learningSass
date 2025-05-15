@@ -13,33 +13,51 @@
 }
 
 .btn-default {
-  background-color: #444444;
+  background-color: rgba(68, 68, 68, 0.8);
   color: #ffffff;
+}
+.btn-default:hover {
+  background-color: #111111;
 }
 
 .btn-danger {
   background-color: #f00008;
   color: #ffffff;
 }
+.btn-danger:hover {
+  background-color: rgb(138, 0, 4.6);
+}
 
 .btn-succes {
   background-color: #18b304;
   color: #ffffff;
+}
+.btn-succes:hover {
+  background-color: rgb(10.6229508197, 79.2295081967, 1.7704918033);
 }
 
 .btn-warning {
   background-color: #f77a05;
   color: #ffffff;
 }
+.btn-warning:hover {
+  background-color: rgb(147.0238095238, 72.619047619, 2.9761904762);
+}
 
 .btn-info {
   background-color: #09e0b1;
   color: #000000;
 }
+.btn-info:hover {
+  background-color: rgb(5.0600858369, 125.9399141631, 99.5150214592);
+}
 
 .btn-dark {
   background-color: #000000;
   color: #ffffff;
+}
+.btn-dark:hover {
+  background-color: #333333;
 }
 
 /* Font property */
@@ -416,7 +434,7 @@ header nav ul li a {
   font-weight: 700;
 }
 header nav ul li a:hover, header nav ul li a.active {
-  color: #18b304;
+  color: rgb(36.7331288344, 232.1533742331, 7.3466257669);
 }
 
 @media (min-width: 768px) {
@@ -501,7 +519,7 @@ footer ul a {
   font-weight: 700;
 }
 footer ul a:hover, footer ul a.active {
-  color: #18b304;
+  color: rgb(36.7331288344, 232.1533742331, 7.3466257669);
 }
 
 @media (min-width: 768px) {
