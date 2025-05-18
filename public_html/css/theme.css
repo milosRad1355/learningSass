@@ -1,14 +1,13 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 .btn-dark, .btn-info, .btn-warning, .btn-succes, .btn-danger, .btn-default {
   display: inline-block;
   padding: 10px 25px;
   border: none;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
+  border-radius: 5px 50% 5px 50%;
+  -moz-border-radius: 5px 50% 5px 50%;
+  -webkit-border-radius: 5px 50% 5px 50%;
+  -o-border-radius: 5px 50% 5px 50%;
   cursor: pointer;
 }
 
@@ -411,7 +410,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  padding: 20px 0;
+  padding: 30px 0 30px;
   background-color: #8a059e;
 }
 header .branding {
@@ -458,30 +457,35 @@ header nav ul li a:hover, header nav ul li a.active {
 /*header a{
     color: $header-link-color;
 }*/
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Apr 19, 2025, 1:11:36 AM
-    Author     : Korisnik
-*/
+.home-section {
+  padding: 150px 0 150px;
+  background-color: #ffffff;
+}
+
 .about-section {
-  padding: 30px 0;
-  background: #ffffff;
+  padding: 30px 0 30px;
+  background-color: #ffffff;
 }
 
 .service-section {
-  padding: 30px 0;
+  padding: 30px 0 30px;
+  background-color: transparent;
 }
 
 .comment-section {
-  padding: 30px 0;
-  background: #ffffff;
+  padding: 30px 0 30px;
+  background-color: #ffffff;
+}
+.comment-section .comment-img img {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .course-section {
-  padding: 50px 0;
+  padding: 30px 0 30px;
+  background-color: transparent;
 }
 .course-section table {
   border: 1px solid #000000;
@@ -510,16 +514,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
   background-color: rgb(199.75, 199.75, 199.75);
 }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Apr 19, 2025, 1:16:21 AM
-    Author     : Korisnik
-*/
+.contact-section {
+  padding: 150px 0 150px;
+  background-color: #ffffff;
+}
+
 footer {
-  padding: 30px 0;
+  padding: 30px 0 30px;
   background-color: #8a059e;
 }
 footer .copyright {
